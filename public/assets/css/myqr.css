@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainbox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.left{
+    width: 75%;
+    height: 100%;
+    border: 1px solid;
+}
+.previous{
+    width: 25%;
+    height: 100%;
+    border: 1px solid;
+
+}
+
+.time{
+    width: 100%;
+    height: 15%;
+    background-color: #16A51B;
+    display: flex;
+    gap: 10px;
+
+}
+
+.main{
+    width: 100%;
+    height: 85%;
+    display: flex;
+}
+
+.cam{
+    border: #16A51B 1px solid;
+    width: 50%;
+    height: 100%;
+}
+
+.info{
+    width: 50%;
+    height: 100%;
+    background-color: #232524;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    border-bottom: 1px solid white;
+    width: 100%;
+    height: 15%;
+}
+
+.tag{
+    /* position: absolute; */
+    color: whitesmoke   ;
+    float: left;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+.infoname{
+    font-size: 2em;
+    /* columns: white; */
+    font-family: sans-serif;
+    color: whitesmoke;
+    padding-top: 15px;
+    padding-left: 15px;
+    float: right;
+    padding-right: 20px;
+
+}
+
+.timebox{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#reader{
+    width: 100%;
+    height: 100%;
+}
+.previous,.infodata{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.prevbox{
+    width: 100%;
+   
+    background-color: #4ab74d;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.prevbox-title{
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: .75em; */
+}
+
+.iconic{
+    width: 70px;
+    height: auto;
+}
+
+.timeboxes{
+   display:flex ;
+   flex-direction: column;
+   gap: 5px;
+   width: 100%;
+}
+
+.prev-box{
+    display: flex;
+    gap:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.logtext{
+    width: 100%;
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+}
